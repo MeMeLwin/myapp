@@ -1,0 +1,34 @@
+{
+  "ecmaVersion": "6",
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [
+    "\"path/to/your/js/**/*.js\""
+  ],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {
+    "doc_comment": true,
+    "node": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "es_modules": {},
+    "angular": {},
+    "requirejs": {
+      "baseURL": "",
+      "paths": "",
+      "override": ""
+    },
+    "commonjs": {},
+    "modules": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "node_resolve": {}
+  }
+}
